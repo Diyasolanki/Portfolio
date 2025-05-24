@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Personal Portfolio
 
-## Getting Started
+This is a personal portfolio website built using **React** and **Tailwind CSS**. It showcases skills, projects, and contact information in a clean, responsive design. Easily customizable for your own use!
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- React
+- Tailwind CSS
+- Vite (for fast build and dev server)
+- Git & GitHub (version control)
+- Vercel (deployment)
+
+---
+
+
+## 🧾 Features
+
+- Fully responsive layout
+- Project showcase section
+- About me section
+- Contact form
+- Smooth scrolling and transitions
+
+---
+
+
+## 📥 Getting Started
+
+### 1️⃣ Clone the repository
 
 ```bash
+git clone https://github.com/Diyasolanki/Portfolio.git
+cd Portfolio
+````
+ ### 2️⃣ Check you have Node.js installed 
+```bash
+node --version
+````
+### 3️⃣ Run Project
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
+````
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### If You want to Create Your Own Nextjs Project then Follow Given Stpes
 
-## Learn More
+```bash
+npx create-next-app@latest my-nextjs-app
+```
 
-To learn more about Next.js, take a look at the following resources:
+Using yarn
+```bash
+yarn create next-app my-nextjs-app
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Answers The CLI Prompt:
+Note : It will install the latest version of Tailwind CSS if you not comfortable with that then download manually From Tailwind CSS offial site. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Navigate to your project folder
+```bash
+cd my-nextjs-app
+```
+Start the development server
+```bash
+npm run dev
+```
+Project Structure (with App Router)
+```ruby
+my-nextjs-app/
+├── app/
+│   ├── page.tsx         # Main home page
+│   └── layout.tsx       # Shared layout (navbar/footer)
+├── public/              # Static assets (images, etc.)
+├── styles/              # Global styles
+├── next.config.js       # Next.js config
+├── tailwind.config.js   # Tailwind config (if selected)
+├── tsconfig.json        # TypeScript config (if selected)
+└── package.json
+````
 
-## Deploy on Vercel
+After Completing Project Run Given Command for Build for Production that gives you suggestion what you need to modify for deploying production level.
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy to Vercel
+1. Push your code to GitHub.
+2. Go to https://vercel.com
+3. Click "New Project" and import your repo.
+4. Vercel auto-detects it's a Next.js app — just click Deploy.
+
+## Thank You For Reading. 
+## if You have any quary or get stuck then know me at diyasolanki.ce@gmail.com
