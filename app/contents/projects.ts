@@ -19,19 +19,11 @@ export const projects: Project[] = [
         image: '/projects/Note_website.png',
       },
       {
-        title: 'Portfolio Website',
-        description: 'My personal portfolio website showcasing my projects and skills.',
-        technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-        githubLink: 'https://github.com',
-        demoLink: 'https://diyasolanki.vercel.app/',
-        image: '/projects/portfolio-website.png',
-      },
-      {
         title: 'Guessing Number Using Js',
         description: 'A simple number guessing game using JavaScript.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         githubLink: 'https://github.com',
-        demoLink: '',
+        demoLink: 'https://diyasolanki.github.io/GuessingNumberUsing-JS/',
         image: '/projects/Guessing_Number.png',
       },
       {
@@ -39,7 +31,7 @@ export const projects: Project[] = [
         description: 'A Image effect using HTML and CSS.',
         technologies: ['HTML', 'CSS'],
         githubLink: 'https://github.com',
-        demoLink: '',
+        demoLink: 'https://diyasolanki.github.io/ImageEffect-HTML-CSS/',
         image: '/projects/Image_Effect.png',
       },
   ];

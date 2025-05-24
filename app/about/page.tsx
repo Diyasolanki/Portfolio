@@ -22,7 +22,7 @@ const page = () => {
           {/* Resume Download Button */}
           <div className="mt-8 text-center md:text-left">
             <a
-              href="/Diya_resume.pdf"
+              href="/Diya_Solanki_Resume-2.pdf"
               download
               className="inline-block bg-primary text-white px-6 py-3 rounded-lg shadow hover:bg-primary/80 transition"
             >
