@@ -43,7 +43,7 @@ const experienceData = [
 ];
 
 export default function Page() {
- const [activeTab, setActiveTab] = useState<'education' | 'experience'>('education');
+ const [activeTab, setActiveTab] = useState<'education' | 'experience'>('experience');
 
   return (
     <section className="py-16 bg-white dark:bg-gray-900 px-4">
@@ -81,10 +81,10 @@ export default function Page() {
             <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Experience</h3>
             {experienceData.map((item, idx) => (
               <div key={idx} className="mb-10">
-                <span className="absolute -left-6 flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full ring-8 ring-white dark:ring-gray-900">
+                <span className="absolute -left-5 flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full ring-8 ring-white dark:ring-gray-900">
                   {item.icon}
                 </span>
-                <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white ml-1">
                   {item.title}
                 </h4>
                 <span className="block text-sm text-gray-500 dark:text-gray-400 mb-1">
@@ -117,13 +117,13 @@ export default function Page() {
 
         {/* Mobile View: Toggle Based */}
         <div className="md:hidden">
-          <div className="relative border-l-4 border-primary pl-6">
+          <div className="relative border-l-4 border-primary pl-7 ">
             {(activeTab === 'experience' ? experienceData : educationData).map((item, idx) => (
-              <div key={idx} className="mb-10">
-                <span className="absolute -left-6 flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full ring-8 ring-white dark:ring-gray-900">
+              <div key={idx} className="mb-10 ">
+                <span className="absolute -left-5 flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full ring-8 ring-white dark:ring-gray-900">
                   {item.icon}
                 </span>
-                <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white ml-1">
                   {item.title}
                 </h4>
                 <span className="block text-sm text-gray-500 dark:text-gray-400 mb-1">
@@ -134,6 +134,10 @@ export default function Page() {
             ))}
           </div>
         </div>
+
+
+
+
       </div>
     </section>
   );
