@@ -96,4 +96,4 @@ Deploy to Vercel
 4. Vercel auto-detects it's a Next.js app — just click Deploy.
 
 ## Thank You For Reading. 
-## if You have any quary or get stuck then know me at diyasolanki.ce@gmail.com
+## if You have any quary or get stuck then know me at solankidiya28@gmail.com
