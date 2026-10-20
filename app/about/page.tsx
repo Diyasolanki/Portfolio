@@ -12,17 +12,17 @@ const page = () => {
           </h2>
 
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-justify">
-            I&apos;m <span className="font-semibold text-primary">Diya Solanki</span>, a dedicated MERN Stack Developer with a strong foundation in computer science fundamentals and backend development. I am passionate to building web applications using technologies like <strong>React, Node.js, Express, and MongoDB</strong>. I&apos;m also enthusiastic about <strong>Cloud Computing</strong> and actively explore AWS and Linux.
+            I&apos;m <span className="font-semibold text-primary">Diya Solanki</span>, a dedicated MERN Stack Developer with a strong foundation in computer science fundamentals and backend development. I am passionate to building web applications using technologies like <strong>React, Node.js, Express, and MongoDB</strong>.
             <br /><br />
             I have a strong ability to <strong>handle spontaneous problems</strong> with a calm and solution-oriented mindset. Whether it&apos;s troubleshooting device issues, resolving unexpected bugs, or adapting to real-time challenges during development, I stay composed and efficient under pressure. My <strong>strong communication skills</strong> enable me to clearly convey technical details, collaborate effectively with teams, and ensure smooth understanding across both technical and non-technical audiences.
             <br /> <br />
-            Beyond technical skills, I have a creative side—I enjoy <strong>story writing</strong> and expressing ideas through words. My passion for tech is balanced with my love for writing, which helps me communicate clearly and creatively. I also have experience in languages like <strong>Python, Java, C++, and C</strong>, and a solid grip on <strong>Linux and system fundamentals</strong>.
+            Beyond technical skills, I have a creative side—I enjoy <strong>story writing</strong> and expressing ideas through words. My passion for tech is balanced with my love for writing, which helps me communicate clearly and creatively. I also have experience in languages like <strong>Java, C++, and C.</strong>
           </p>
 
           {/* Resume Download Button */}
           <div className="mt-8 text-center md:text-left">
             <a
-              href="/Diya_Solanki_Resume-2.pdf"
+              href="/DiyaSolanki_Resume2026.pdf"
               download
               className="inline-block bg-primary text-white px-6 py-3 rounded-lg shadow hover:bg-primary/80 transition"
             >

@@ -66,7 +66,7 @@ const handleSubmit = async(e: React.FormEvent) => {
                 <FaEnvelope className='w-6 h-6 text-primary '/>
                 <div>
                   <h3 className='font-semibold'>Email</h3>
-                  <a href="mailto:diyasolanki.ce@gmail.com" className='text-secondary hover:text-primary'>diyasolanki.ce@gmail.com</a>
+                  <a href="mailto:solankidiya28@gmail.com" className='text-secondary hover:text-primary'>solankidiya28@gmail.com</a>
                 </div>
               </div>
 

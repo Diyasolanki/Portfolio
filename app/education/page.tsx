@@ -27,17 +27,17 @@ const educationData = [
 
 const experienceData = [
   {
-    title: 'Python With Django - Brainy Beam',
-    location: 'Ahmedabad - Online',
-    date: '2022',
-    description: 'Worked with Python with django project.',
-    icon: '💼',
-  },
-  {
-    title: 'Web Development With React',
+    title: 'Web Development With React - Stypix',
     location: 'Ahmedabad - Online',
     date: '2023',
     description: 'Worked with React and HTML, CSS, JS to build UI.',
+    icon: '💼',
+  },
+  {
+    title: 'MERN-Stack Development - NVInfoTech',
+    location: 'Surat',
+    date: '2026',
+    description: 'Worked with MERN stack technology and built Quiz website project.',
     icon: '💼',
   },
 ];

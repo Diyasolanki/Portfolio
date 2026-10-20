@@ -15,6 +15,10 @@ const languages = [
     url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
   },
   {
+    name: 'Tailwind CSS',
+    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
+  },
+  {
     name: 'React',
     url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
   },
@@ -22,14 +26,9 @@ const languages = [
     name: 'Node.js',
     url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
   },
-   {
-    name: 'Next.js',
-    url: 'https://raw.githubusercontent.com/vercel/vercel/master/packages/frameworks/logos/next.svg'
-
-  },
   {
     name: 'Express JS',
-    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' ,
+    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
   },
   {
     name: 'MongoDB',
@@ -40,42 +39,44 @@ const languages = [
     url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
   },
   {
-    name: 'Python',
-    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
-  },
-  {
-    name: 'Linux',
-    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
-  },
-    {
-    name: 'Bash',
-    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg',
-  },
+  name: 'Git',
+  url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+},
+{
+  name: 'GitHub',
+  url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+},
+{
+  name: 'Docker',
+  url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+},
+
+
 ]
 
 const Languages = () => {
   return (
     <>
-     <section className="py-16 bg-gray-100 dark:bg-gray-900">
-      <div className="max-w-5xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-center mb-8">Languages & Technologies</h2>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
-          {languages.map((lang, index) => (
-            <div key={index} className="flex flex-col items-center group">
-              <Image
-                src={lang.url}
-                alt={lang.name}
-                width={50}
-                height={50}
-                className="transition-transform duration-300 group-hover:scale-110"
-              />
-              <span className="mt-2 text-sm text-gray-700 dark:text-gray-300">{lang.name}</span>
-            </div>
-          ))}
+      <section className="py-16 bg-gray-100 dark:bg-gray-900">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-center mb-8">Languages & Technologies</h2>
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+            {languages.map((lang, index) => (
+              <div key={index} className="flex flex-col items-center group">
+                <Image
+                  src={lang.url}
+                  alt={lang.name}
+                  width={50}
+                  height={50}
+                  className="transition-transform duration-300 group-hover:scale-110"
+                />
+                <span className="mt-2 text-sm text-gray-700 dark:text-gray-300">{lang.name}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
-    
+      </section>
+
     </>
   )
 }
